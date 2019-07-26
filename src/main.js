@@ -5,8 +5,10 @@ import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import axios from 'axios'
 
 Vue.config.productionTip = false
+Vue.prototype.$axios = axios
 Vue.use(MuseUI)
 Vue.use(MintUI)
 
